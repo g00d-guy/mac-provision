@@ -8,7 +8,7 @@ configure_osx: yes
 
 dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_repo_local_destination: ~/.dotfiles
 dotfiles_files:
   - .zshrc
   - .gitignore
@@ -17,7 +17,6 @@ dotfiles_files:
   - .vimrc
 
 homebrew_installed_packages:
-  # - ansible # Installed via Pip.
   - autoconf
   - bash-completion
   - doxygen
@@ -28,14 +27,15 @@ homebrew_installed_packages:
   - gpg
   - hub
   - httpie
-  - iperf
+  - htop
+  - iperf3
+  - jq
   - libevent
   - sqlite
   - mcrypt
   - nmap
   - node
   - nvm
-  - php
   - ssh-copy-id
   - cowsay
   - readline
@@ -53,16 +53,10 @@ homebrew_cask_apps:
   - chromedriver
   - docker
   - dropbox
-  - firefox
   - google-chrome
   - handbrake
   - licecap
-  - macvim
-  - sequel-pro
-  - skitch
-  - slack
   - sublime-text
-  - transmit
   - vagrant
 
 # See `geerlingguy.mas` role documentation for usage instructions.
