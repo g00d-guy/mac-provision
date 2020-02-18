@@ -81,9 +81,9 @@ gem_packages: []
   #   state: present # present/absent/latest, default: present
   #   version: "~> 1.15.1" # default: N/A
 npm_packages: []
-  # - name: webpack
-  #   state: present # present/absent/latest, default: present
-  #   version: "^2.6" # default: N/A
+  - name: pm2
+    state: present
+    version: "^4.2.3"
 pip_packages: []
   # - name: mkdocs
   #   state: present # present/absent/latest, default: present
