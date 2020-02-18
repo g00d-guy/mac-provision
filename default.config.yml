@@ -61,7 +61,9 @@ homebrew_cask_apps:
   - vagrant
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps:
+  - { id: 946399090, name: "Telegram Desktop (1.9.7)" }
+  - { id: 918858936, name: "Airmail (4.0.3)" }
 mas_email: ""
 mas_password: ""
 
