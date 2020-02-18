@@ -31,6 +31,7 @@ homebrew_installed_packages:
   - iperf3
   - jq
   - libevent
+  - midnight-commander
   - sqlite
   - mcrypt
   - nmap
