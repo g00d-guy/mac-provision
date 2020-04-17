@@ -58,6 +58,7 @@ homebrew_cask_apps:
   - handbrake
   - licecap
   - sublime-text
+  - iterm2
   - vagrant
 
 # See `geerlingguy.mas` role documentation for usage instructions.
